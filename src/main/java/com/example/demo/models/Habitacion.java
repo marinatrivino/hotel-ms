@@ -13,6 +13,7 @@ public class Habitacion {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
     @Column(name="id")
+    private int nroHabitacion;
     private int capacidad;
     private Reserva reserva;
 }
